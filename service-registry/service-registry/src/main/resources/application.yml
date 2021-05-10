@@ -1,0 +1,9 @@
+server:
+  port: 8761
+  
+# Eureka client configuration
+# We are just telling to eureka server that this is not a client.  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
